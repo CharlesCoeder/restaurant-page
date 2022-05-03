@@ -34,7 +34,6 @@ function initialPage(){
     content.appendChild(header);
     content.appendChild(buttons);
     content.appendChild(container);
-
 }
 
 export default initialPage;

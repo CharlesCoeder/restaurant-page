@@ -1,5 +1,4 @@
 function home(){
-    const content = document.getElementById('content');
     const container = document.querySelector('.main');
     const hero = document.createElement('div');
     hero.classList.add('hero');
@@ -27,9 +26,6 @@ function home(){
     innerContainer.appendChild(text);
 
     container.appendChild(innerContainer);
-
-    content.appendChild(container);
-    
 }
 
 export default home;

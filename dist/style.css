@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.scrollbar {
+    padding-left: calc(100vw - 100%);
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -71,4 +75,52 @@ button:active {
 
 p {
     width: 50vw;
+}
+
+.menu {
+    margin-top: 30px;
+    border: 4px solid black;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.column {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionTitle {
+
+    font-size: 5rem;
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 0px 20px 0px;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.item > * {
+    margin: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section :first-child {
+    margin-top: 20px;
 }
