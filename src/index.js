@@ -1,6 +1,7 @@
 import initialPage from './initialPage';
 import home from './home';
 import menu from './menu';
+import contact from './contact';
 
 initialPage();
 home();
@@ -32,7 +33,5 @@ menuBtn.addEventListener('click', () => {
 const contactBtn = document.querySelector('.contactBtn');
 contactBtn.addEventListener('click', () => {
     removeContent();
-    const test = document.createElement('div');
-    test.textContent = "Contact page to be implemented...";
-    container.appendChild(test);
+    contact();
 });
